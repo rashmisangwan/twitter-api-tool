@@ -25,7 +25,7 @@ def signUpHandler():
 @app.route('/sign-in', methods=[ 'GET', 'POST' ])
 def signInHandler():
 	if request.method == 'GET':
-		return render_template("sign-in.html")
+		return 'Sign in handler not configured.'
 	else:
 		return 'I am signing in'
 
